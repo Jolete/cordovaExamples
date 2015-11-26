@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="package">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/platforms/browser/build/package.zip!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
