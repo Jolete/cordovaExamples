@@ -1,73 +1,217 @@
-<!DOCTYPE html>
-<!--
-    Licensed to the Apache Software Foundation (ASF) under one
-    or more contributor license agreements.  See the NOTICE file
-    distributed with this work for additional information
-    regarding copyright ownership.  The ASF licenses this file
-    to you under the Apache License, Version 2.0 (the
-    "License"); you may not use this file except in compliance
-    with the License.  You may obtain a copy of the License at
-
-    http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing,
-    software distributed under the License is distributed on an
-    "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
-     KIND, either express or implied.  See the License for the
-    specific language governing permissions and limitations
-    under the License.
--->
 <html>
 <head>
-        <!--
-        Customize this policy to fit your own app's needs. For more guidance, see:
-            https://github.com/apache/cordova-plugin-whitelist/blob/master/README.md#content-security-policy
-        Some notes:
-            * gap: is required only on iOS (when using UIWebView) and is needed for JS->native communication
-            * https://ssl.gstatic.com is required only on Android and is needed for TalkBack to function properly
-            * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
-                * Enable inline JS: add 'unsafe-inline' to default-src
-            -->
-            <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
-            <meta name="format-detection" content="telephone=no">
-            <meta name="msapplication-tap-highlight" content="no">
-            <!-- <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"> -->
-            <!--Let browser know website is optimized for mobile-->
-            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-            
+	<title>Ajuntament de Calonge. Geoportal</title>
+	<meta charset="UTF-8">
+	
+	<!-- Le decimos al navegador que nuestra web esta optimizada para moviles -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
 
-            <link rel="stylesheet" type="text/css" href="css/index.css">
+	<meta http-equiv="Page-Enter" content="blendTrans(Duration=3.0)">
+	<meta http-equiv="Page-Exit" content="blendTrans(Duration=3.0)">
+	
+	<!--Import Google Icon Font-->
+	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!-- <link rel="stylesheet" href="https://i.icomoon.io/public/temp/14bbcdbd5e/UntitledProject/style.css"> -->
 
-            <!-- Compiled and minified CSS -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/css/materialize.min.css">
+	<!-- Cargamos el CSS -->
+	<link type="text/css" rel="stylesheet" href="css/materialize.css" media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="css/custom.css" />
+</head>
 
-            <title>Test Cordova i Materialize</title>
-        </head>
-        <body>
-            <main class="container">
-                <div class="row">
-                    <div class="col s12 m7">
-                        <div class="card">
-                            <div class="card-image">
-                                <img src="images/sample-1.jpg">
-                                <span class="card-title">Card Title</span>
-                            </div>
-                            <div class="card-content">
-                                <p>I am a very simple card. I am good at containing small bits of information.
-                                    I am convenient because I require little markup to use effectively.</p>
-                                </div>
-                                <div class="card-action">
-                                    <a href="#">This is a link</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </main>
-                <script type="text/javascript" src="cordova.js"></script>
-                <script type="text/javascript" src="js/index.js"></script>
-                <!--Import jQuery before materialize.js-->
-                <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-                <!-- Compiled and minified JavaScript -->
-                <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.3/js/materialize.min.js"></script>
-            </body>
-            </html>
+<body id="Galeria">
+	<!-- <img src="img/portada1.jpg" alt="" class="responsive-img"> -->
+	<main class="container">
+		<h2 class="header">Geoportal. Galeria de mapes</h2>
+		<div class="row">
+			<div class="col s12 m12 l6">
+				<div class="card medium">
+					<div class="card-image responsive-img">
+						<img src="https://tecnogeows-store-a.s3.amazonaws.com/HLMzzgHYiw8z4JBXrDNbft/thumb/callejero2.jpg">
+						<span class="card-title">Carrerer</span>
+					</div>
+					<div class="card-content">
+						<p>Accedeix al carrerer oficial municpal. Cerca de carrers i d'equipaments municipals. Troba fàcilment tots els equipaments. Informació actualitzada per l'Ajuntament.)</p>
+					</div>
+					<div class="card-action">
+						<a href="https://citymap.tecnogeows.com/user/100741285818610854536/map/Pdaps5LL7VAK9eRqYxRjh2" target="_blank">Accedeix</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col s12 m12 l6">
+				<div class="card medium">
+					<div class="card-image responsive-img">
+						<img src="https://tecnogeows-store-a.s3.amazonaws.com/HLMzzgHYiw8z4JBXrDNbft/thumb/movilidad2.jpg">
+						<span class="card-title">Mapa de Mobilitat</span>
+					</div>
+					<div class="card-content">
+						<p>Accedeix al mapa de mobilitat. Consulta informació sobre línies d'autobús, zones blaves i equipaments relacionats amb el transport.</p>
+					</div>
+					<div class="card-action">
+						<a href="https://citymap.tecnogeows.com/user/100741285818610854536/map/UCqQ4qK4x9uwsE8Ef13Ev@A" target="_blank">Accedeix</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+		
+		<div class="row">
+			<div class="col s12 m12 l6">
+				<div class="card medium">
+					<div class="card-image responsive-img">
+						<img src="https://tecnogeows-store-a.s3.amazonaws.com/HLMzzgHYiw8z4JBXrDNbft/thumb/callejero2.jpg">
+						<span class="card-title">Carrerer</span>
+					</div>
+					<div class="card-content">
+						<p>Accedeix al carrerer oficial municpal. Cerca de carrers i d'equipaments municipals. Troba fàcilment tots els equipaments. Informació actualitzada per l'Ajuntament.)</p>
+					</div>
+					<div class="card-action">
+						<a href="https://citymap.tecnogeows.com/user/100741285818610854536/map/Pdaps5LL7VAK9eRqYxRjh2" target="_blank">Accedeix</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col s12 m12 l6">
+				<div class="card medium">
+					<div class="card-image responsive-img">
+						<img src="https://tecnogeows-store-a.s3.amazonaws.com/HLMzzgHYiw8z4JBXrDNbft/thumb/movilidad2.jpg">
+						<span class="card-title">Mapa de Mobilitat</span>
+					</div>
+					<div class="card-content">
+						<p>Accedeix al mapa de mobilitat. Consulta informació sobre línies d'autobús, zones blaves i equipaments relacionats amb el transport.</p>
+					</div>
+					<div class="card-action">
+						<a href="https://citymap.tecnogeows.com/user/100741285818610854536/map/UCqQ4qK4x9uwsE8Ef13Ev@A" target="_blank">Accedeix</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="row">
+			<div class="col s12 m12 l6">
+				<div class="card medium">
+					<div class="card-image responsive-img">
+						<img src="https://tecnogeows-store-a.s3.amazonaws.com/HLMzzgHYiw8z4JBXrDNbft/thumb/callejero2.jpg">
+						<span class="card-title">Carrerer</span>
+					</div>
+					<div class="card-content">
+						<p>Accedeix al carrerer oficial municpal. Cerca de carrers i d'equipaments municipals. Troba fàcilment tots els equipaments. Informació actualitzada per l'Ajuntament.)</p>
+					</div>
+					<div class="card-action">
+						<a href="https://citymap.tecnogeows.com/user/100741285818610854536/map/Pdaps5LL7VAK9eRqYxRjh2" target="_blank">Accedeix</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col s12 m12 l6">
+				<div class="card medium">
+					<div class="card-image responsive-img">
+						<img src="https://tecnogeows-store-a.s3.amazonaws.com/HLMzzgHYiw8z4JBXrDNbft/thumb/movilidad2.jpg">
+						<span class="card-title">Mapa de Mobilitat</span>
+					</div>
+					<div class="card-content">
+						<p>Accedeix al mapa de mobilitat. Consulta informació sobre línies d'autobús, zones blaves i equipaments relacionats amb el transport.</p>
+					</div>
+					<div class="card-action">
+						<a href="https://citymap.tecnogeows.com/user/100741285818610854536/map/UCqQ4qK4x9uwsE8Ef13Ev@A" target="_blank">Accedeix</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="row">
+			<div class="col s12 m12 l6">
+				<div class="card medium">
+					<div class="card-image responsive-img">
+						<img src="https://tecnogeows-store-a.s3.amazonaws.com/HLMzzgHYiw8z4JBXrDNbft/thumb/callejero2.jpg">
+						<span class="card-title">Carrerer</span>
+					</div>
+					<div class="card-content">
+						<p>Accedeix al carrerer oficial municpal. Cerca de carrers i d'equipaments municipals. Troba fàcilment tots els equipaments. Informació actualitzada per l'Ajuntament.)</p>
+					</div>
+					<div class="card-action">
+						<a href="https://citymap.tecnogeows.com/user/100741285818610854536/map/Pdaps5LL7VAK9eRqYxRjh2" target="_blank">Accedeix</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col s12 m12 l6">
+				<div class="card medium">
+					<div class="card-image responsive-img">
+						<img src="https://tecnogeows-store-a.s3.amazonaws.com/HLMzzgHYiw8z4JBXrDNbft/thumb/movilidad2.jpg">
+						<span class="card-title">Mapa de Mobilitat</span>
+					</div>
+					<div class="card-content">
+						<p>Accedeix al mapa de mobilitat. Consulta informació sobre línies d'autobús, zones blaves i equipaments relacionats amb el transport.</p>
+					</div>
+					<div class="card-action">
+						<a href="https://citymap.tecnogeows.com/user/100741285818610854536/map/UCqQ4qK4x9uwsE8Ef13Ev@A" target="_blank">Accedeix</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		<div class="row">
+			<div class="col s12 m12 l6">
+				<div class="card medium">
+					<div class="card-image responsive-img">
+						<img src="https://tecnogeows-store-a.s3.amazonaws.com/HLMzzgHYiw8z4JBXrDNbft/thumb/callejero2.jpg">
+						<span class="card-title">Carrerer</span>
+					</div>
+					<div class="card-content">
+						<p>Accedeix al carrerer oficial municpal. Cerca de carrers i d'equipaments municipals. Troba fàcilment tots els equipaments. Informació actualitzada per l'Ajuntament.)</p>
+					</div>
+					<div class="card-action">
+						<a href="https://citymap.tecnogeows.com/user/100741285818610854536/map/Pdaps5LL7VAK9eRqYxRjh2" target="_blank">Accedeix</a>
+					</div>
+				</div>
+			</div>
+			
+			<div class="col s12 m12 l6">
+				<div class="card medium">
+					<div class="card-image responsive-img">
+						<img src="https://tecnogeows-store-a.s3.amazonaws.com/HLMzzgHYiw8z4JBXrDNbft/thumb/movilidad2.jpg">
+						<span class="card-title">Mapa de Mobilitat</span>
+					</div>
+					<div class="card-content">
+						<p>Accedeix al mapa de mobilitat. Consulta informació sobre línies d'autobús, zones blaves i equipaments relacionats amb el transport.</p>
+					</div>
+					<div class="card-action">
+						<a href="https://citymap.tecnogeows.com/user/100741285818610854536/map/UCqQ4qK4x9uwsE8Ef13Ev@A" target="_blank">Accedeix</a>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+
+		
+	</main>
+
+	
+<footer class="slideup footwrapper">
+<div class="wrapper " id="wrapper-3">
+
+<div class="container " id="container-3">
+<div class="row">
+		<div class="span8 " id="col-3-1">
+			<div class="colwrapper"><div class="widget widget_text inner-container">			<div class="textwidget">© Ayuntamiento Alcobendas, 2015.   |   Geoportal desarrollado por Tecnogeo (Grupo Absis)</div>
+		</div></div>
+		</div>
+		<div class="span4 " id="col-3-2">
+			<div class="colwrapper"><div class="widget widget_ultimatumsocial inner-container">		<div class="ult_social" style="text-align: right">
+			<a href="#" target="_blank" style="font-size:25px;line-height:25px"><i class="social-icon-circle-facebook"></i></a><a href="#" target="_blank" style="font-size:25px;line-height:25px"><i class="social-icon-circle-flickr"></i></a><a href="#" target="_blank" style="font-size:25px;line-height:25px"><i class="social-icon-circle-foursquare"></i></a><a href="#" target="_blank" style="font-size:25px;line-height:25px"><i class="social-icon-circle-pinterest"></i></a><a href="#" target="_blank" style="font-size:25px;line-height:25px"><i class="social-icon-circle-twitter"></i></a><a href="#" target="_blank" style="font-size:25px;line-height:25px"><i class="social-icon-circle-youtube"></i></a><a href="#" target="_blank" style="font-size:25px;line-height:25px"><i class="social-icon-circle"></i></a>		</div>
+		</div></div>
+		</div>
+		</div></div>
+</div>
+
+	</footer>
+
+	<!-- Cargamos jQuery y materialize js -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.js"></script>
+</body>
+</html>
