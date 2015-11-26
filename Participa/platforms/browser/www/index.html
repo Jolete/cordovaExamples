@@ -1,0 +1,128 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+  <head>
+    <!--<meta name="viewport" content="width=device-width"/> -->
+    <meta name="viewport" content="initial-scale=1, minimum-scale=1, maximum-scale=1">
+        
+    
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+    <title></title>       
+        <script type="text/javascript" charset="utf-8" src="js/libs/cordova-2.2.0.js"></script>
+              
+        <link href="telerik/styles/kendo.mobile.all.min.css" rel="stylesheet" />
+
+        <link href="telerik/styles/kendo.common.min.css" rel="stylesheet" />
+        <link href="telerik/styles/kendo.default.min.css" rel="stylesheet" />
+                      
+        <script type="text/javascript" charset="utf-8" src="js/libs/jquery-1.8.3.min.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/libs/iscroll.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/libs/OpenLayers.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/libs/ChildBrowser.js"></script>
+        <script type="text/javascript" charset="utf-8" src="conf/conf.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/wheel.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/ingrscale.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/mf.js"></script>
+        <script type="text/javascript" charset="utf-8" src="js/GCMPlugin.js"></script>
+   
+                
+        <script type="text/javascript" charset="utf-8" src="js/all.js"></script>
+        <!--<script type="text/javascript" charset="utf-8" src="js/childbrowser.js"></script>-->
+        <script src="telerik/js/jquery.min.js"></script>
+        <script src="telerik/js/kendo.all.min.js"></script>        
+  </head>
+  <body onload="onBodyLoad()">
+  <div id="mobileContainer" style="position:relative;">
+	<div class="disableDiv">
+		<div class="loader">
+			<div class="spinner">
+				<div class="bar1"></div>
+				<div class="bar2"></div>
+	   			<div class="bar3"></div>
+				<div class="bar4"></div>
+			    <div class="bar5"></div>
+				<div class="bar6"></div>
+				<div class="bar7"></div>
+				<div class="bar8"></div>
+				<div class="bar9"></div>
+				<div class="bar10"></div>
+				<div class="bar11"></div>
+				<div class="bar12"></div>
+			</div>
+			<div style="font-size:14px;text-align:center;color:#fff;padding-top:10px;" id="loaderText"></div>   		
+		</div>
+	  </div> 
+  	<div id="container" style="position:relative;"></div>
+  </div>
+  <script type="text/javascript">
+//ios7  android { initial: "#container" }
+
+//window.kendoMobileApplication = new kendo.mobile.Application(document.body);
+      window.kendoMobileApplication = new kendo.mobile.Application(document.body, {
+                                 platform: "ios7"
+                                   });
+  
+  </script>  
+  </body>  
+  <script type="text/x-kendo-tmpl" id="template">
+      <div class="native_list_item">#:Description#</div>
+  </script>
+  <script type="text/x-kendo-tmpl" id="templateLanguages">
+      <div class="native_list_Languageitem">#:Name#</div>
+      </script>
+  <script type="text/x-kendo-tmpl" id="templateNotifications1">
+      <div class="productlist_item">
+      	# if(Readed == "0") { #
+		<img style="width:30px;height:30px;float: left;" src="#:Url#" /><img id="remove#:Code#" NotifId="#:Code#" class="k-remove" src="#:RemoveImg#" style="float: right; width:30px;height:30px; top:5px; padding-right: 5px" /><img id="read#:Code#" NotifId="#:Code#" class="k-read" src="#:ReadImg#" style="float: right; width:30px;height:30px; top:5px;" /><span style="font-weight: bold;">#:CategoryName#</span></br><span>#:Description#</span></br><span>#:Time#</span>
+	  	# } else { #
+		<img style="width:30px;height:30px;float: left;" src="#:Url#" /><img id="remove#:Code#" NotifId="#:Code#" class="k-remove" src="#:RemoveImg#" style="float: right; width:30px;height:30px; top:5px;"/><span style="font-weight: bold;">#:CategoryName#</span></br><span>#:Description#</span></br><span>#:Time#</span>		
+		# } #		
+      </div>
+  </script>
+  <script type="text/x-kendo-tmpl" id="templateNotifications12">
+      <div style="text-align: justify">
+      	<table class="tableNotification" border="1" style="width: 100%; right: 3px; left: 3px;" >
+      	<tr style="width: 100%; margin-right: 10px; margin-left: 10px;">
+      	<td style="width: 40px; vertical-align:top;"><img style="width:30px;height:30px; vertical-align:top;" src="#:Url#" /></td>
+      	<td >
+      	# if(CategoryName != "") { #
+      	<span style="font-weight: bold;">#:CategoryName#</span>
+      	</br>
+		# } #	      	
+      	<span style="width: 100%;">#:Description#</span>
+		</br>
+      	<span>#:Time#</span>
+      	</td>
+      	# if(Readed == "0") { #
+		<td style="width: 70px; vertical-align:top;"><img id="remove#:Code#" NotifId="#:Code#" class="k-remove" src="#:RemoveImg#" style="float: right; width:30px;height:30px; top:5px; right: 5px" /><img id="read#:Code#" NotifId="#:Code#" class="k-read" src="#:ReadImg#" style="float: right; width:30px;height:30px; top:5px; right: 50px" /></td>
+	  	# } else { #
+		<td style="width: 70px; vertical-align:top;"><img id="remove#:Code#" NotifId="#:Code#" class="k-remove" src="#:RemoveImg#" style="float: right; width:30px;height:30px; top:5px; right: 5px" /></td>
+		# } #		
+      	</tr>
+      	</table>
+      </div>
+  </script> 
+  <script type="text/x-kendo-tmpl" id="templateNotifications">
+      <div style="text-align: justify">
+      	<table class="tableNotification" border="0" style="width: 100%; right: 3px; left: 3px;" >
+      	<tr style="width: 100%; margin-right: 10px; margin-left: 10px;">
+      		<td style="width: 40px; vertical-align:top;"><img style="width:30px;height:30px; vertical-align:top;" src="#:Url#" /></td>
+      		<td>
+      			# if(CategoryName != "") { #
+      			<span style="width: 100%;font-weight: bold;">#:CategoryName#</span>
+      			</br>
+				# } #	      	      		
+      			<span style="width: 100%;">#:Description#</span>
+      			</br>
+      			<span style="width: 100%;">#:Time#</span>      			
+      		</td>
+      		# if(Readed == "0") { #
+			<td style="width: 70px; vertical-align:top;"><img id="read#:Code#" NotifId="#:Code#" class="k-read" src="#:ReadImg#" style="width:30px;height:30px; top:5px; right: 50px" /><img id="remove#:Code#" NotifId="#:Code#" class="k-remove" src="#:RemoveImg#" style="float: right; width:30px;height:30px; top:5px; right: 5px" /></td>
+			# } else { #
+			<td style="width: 70px; vertical-align:top;"><img id="remove#:Code#" NotifId="#:Code#" class="k-remove" src="#:RemoveImg#" style="float: right; width:30px;height:30px; top:5px; right: 5px" /></td>			
+			# } #	
+      	</tr>
+      	</table>
+      </div>
+  </script>     
+</html>
