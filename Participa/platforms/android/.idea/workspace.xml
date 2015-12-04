@@ -2,30 +2,342 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45106779-cef1-4511-becf-63ac0a6fc3f8" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\temp\cordovaExamples\Participa\platforms\android\CordovaLib\build\intermediates\manifests\tmp\manifestMerger7681765600503999802.xml" afterPath="" />
-      <change type="DELETED" beforePath="C:\temp\cordovaExamples\Participa\www\telerik\content\web\foods\41.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" afterPath="$PROJECT_DIR$/CordovaLib/build/outputs/aar/CordovaLib-debug.aar" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\android\assets\www\EmployeeView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\browser\www\EmployeeView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDV.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVAvailability.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVAvailabilityDeprecated.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVCommandDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVCommandDelegateImpl.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVCommandDelegateImpl.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVCommandQueue.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVCommandQueue.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVConfigParser.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVConfigParser.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVDebug.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVHandleOpenURL.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVHandleOpenURL.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVInvokedUrlCommand.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVInvokedUrlCommand.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVJSON.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVJSON.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVJSON_private.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVJSON_private.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVLocalStorage.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVLocalStorage.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVPlugin.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVPlugin.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVPluginResult.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVPluginResult.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVScreenOrientationDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVShared.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVTimer.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVTimer.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVURLProtocol.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVURLProtocol.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVUserAgentUtil.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVUserAgentUtil.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVWebViewDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVWebViewDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVWhitelist.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\CDVWhitelist.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\NSArray+Comparisons.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\NSArray+Comparisons.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\NSData+Base64.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\NSData+Base64.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\NSDictionary+Extensions.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\NSDictionary+Extensions.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\NSMutableArray+QueueAdditions.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\NSMutableArray+QueueAdditions.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\UIDevice+Extensions.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\Classes\UIDevice+Extensions.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\CordovaLib.xcodeproj\project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\CordovaLib_Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\VERSION" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\CordovaLib\cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop.xcodeproj\project.pbxproj" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Classes\AppDelegate.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Classes\AppDelegate.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Classes\MainViewController.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Classes\MainViewController.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Classes\MainViewController.xib" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Plugins\README" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Plugins\cordova-plugin-console\CDVLogger.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Plugins\cordova-plugin-console\CDVLogger.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Plugins\cordova-plugin-device\CDVDevice.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Plugins\cordova-plugin-device\CDVDevice.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Plugins\cordova-plugin-dialogs\CDVNotification.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Plugins\cordova-plugin-dialogs\CDVNotification.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Plugins\cordova-plugin-statusbar\CDVStatusBar.h" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Plugins\cordova-plugin-statusbar\CDVStatusBar.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\CDVNotification.bundle\beep.wav" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-40.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-40@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-50.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-50@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-60.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-60@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-60@3x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-72.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-72@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-76.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-76@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon-small@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\icons\icon@2x.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\splash\Default-568h@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\splash\Default-667h.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\splash\Default-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\splash\Default-Landscape-736h.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\splash\Default-Landscape@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\splash\Default-Landscape~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\splash\Default-Portrait@2x~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\splash\Default-Portrait~ipad.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\splash\Default@2x~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Resources\splash\Default~iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Workshop-Info.plist" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\Workshop-Prefix.pch" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\config.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\Workshop\main.m" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\apple_ios_version" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\apple_osx_version" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\apple_xcode_version" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\build" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\build-debug.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\build-extras.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\build-release.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\build.xcconfig" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\check_reqs" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\check_reqs.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\clean" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\clean.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\defaults.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\build.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\check_reqs.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\clean.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\copy-www-build-step.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\list-devices" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\list-emulator-images" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\list-started-emulators" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\run.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\spawn.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\start-emulator" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\lib\versions.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\log" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\common.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\glob.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\inflight.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\node_modules\wrappy\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\node_modules\wrappy\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\node_modules\wrappy\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\node_modules\wrappy\test\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\node_modules\wrappy\wrappy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inflight\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inherits\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inherits\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inherits\inherits.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inherits\inherits_browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inherits\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\inherits\test.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\browser.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\minimatch.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\example.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\.npmignore" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\Makefile" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\example.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\balanced-match\test\balanced.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\.travis.yml" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\README.markdown" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\example\map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\node_modules\concat-map\test\map.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\bash-comparison.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\bash-results.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\cases.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\dollar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\empty-option.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\generate.sh" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\negative-increment.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\nested.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\order.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\pad.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\same-type.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\node_modules\brace-expansion\test\sequence.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\minimatch\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\once\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\once\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\once\node_modules\wrappy\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\once\node_modules\wrappy\README.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\once\node_modules\wrappy\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\once\node_modules\wrappy\test\basic.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\once\node_modules\wrappy\wrappy.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\once\once.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\once\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\once\test\once.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\path-is-absolute\index.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\path-is-absolute\license" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\path-is-absolute\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\node_modules\path-is-absolute\readme.md" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\glob\sync.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\nopt\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\nopt\lib\nopt.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\nopt\node_modules\abbrev\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\nopt\node_modules\abbrev\abbrev.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\nopt\node_modules\abbrev\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\nopt\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\q\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\q\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\q\q.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\q\queue.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\shelljs\LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\shelljs\package.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\node_modules\shelljs\shell.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\run" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\run.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\version" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\cordova\version.bat" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\frameworks.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\ios.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\platform_www\cordova-js-src\exec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\platform_www\cordova-js-src\platform.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\platform_www\cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\platform_www\cordova_plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\platform_www\plugins\cordova-plugin-console\www\console-via-logger.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\platform_www\plugins\cordova-plugin-console\www\logger.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\platform_www\plugins\cordova-plugin-device\www\device.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\platform_www\plugins\cordova-plugin-dialogs\www\notification.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\platform_www\plugins\cordova-plugin-statusbar\www\statusbar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\EmployeeView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_add.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_arrow_left.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_book.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_bookmark.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_dialog.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_download.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_goleft.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_location.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_mail.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_monolog.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_phone_outgoing.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_search.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_user.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\images\ic_action_users.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\pageslider.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\css\styles.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Amy_Jones.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Amy_Jones50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Eugene_Lee.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Eugene_Lee50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Gary_Donovan.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Gary_Donovan50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\James_King.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\James_King50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\John_Williams.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\John_Williams50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Julie_Taylor.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Julie_Taylor50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Kathleen_Byrne.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Kathleen_Byrne50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Lisa_Wong.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Lisa_Wong50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Paul_Jones.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Paul_Jones50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Paula_Gates.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Paula_Gates50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Ray_Moore.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Ray_Moore50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Steven_Wells.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\pics\Steven_Wells50.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\ratchet\css\ratchet-theme-android.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\ratchet\css\ratchet-theme-android.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\ratchet\css\ratchet-theme-ios.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\ratchet\css\ratchet-theme-ios.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\ratchet\css\ratchet.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\ratchet\css\ratchet.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\ratchet\fonts\ratchicons.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\ratchet\fonts\ratchicons.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\ratchet\fonts\ratchicons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\assets\ratchet\fonts\ratchicons.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\cordova-js-src\exec.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\cordova-js-src\platform.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\cordova.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\cordova_plugins.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\index.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\js\EmployeeListView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\js\EmployeeView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\js\HomeView.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\js\app.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\js\services\json\EmployeeService.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\js\services\localstorage\EmployeeService.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\js\services\memory\EmployeeService.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\js\services\websql\EmployeeService.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\lib\fastclick.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\lib\handlebars.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\lib\jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\lib\pageslider.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\lib\router.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\plugins\cordova-plugin-console\www\console-via-logger.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\plugins\cordova-plugin-console\www\logger.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\plugins\cordova-plugin-device\www\device.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\plugins\cordova-plugin-dialogs\www\notification.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\platforms\ios\www\plugins\cordova-plugin-statusbar\www\statusbar.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\plugins\ios.json" afterPath="" />
+      <change type="DELETED" beforePath="C:\temp\cordovaExamples\workshop\www\EmployeeView.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/bundles/debug/classes.jar" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/bundles/debug/classes.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/.gradle/2.2.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/outputFileStates.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CordovaLib/build/intermediates/res/resources-debug-test.ap_" afterPath="$PROJECT_DIR$/CordovaLib/build/intermediates/res/resources-debug-test.ap_" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/js/all.js" afterPath="$PROJECT_DIR$/../../www/js/all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/pages/category.html" afterPath="$PROJECT_DIR$/../../www/pages/category.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/pages/councilsList.html" afterPath="$PROJECT_DIR$/../../www/pages/councilsList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/www/index.html" afterPath="$PROJECT_DIR$/assets/www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/index.html" afterPath="$PROJECT_DIR$/../../www/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/pages/languagesList.html" afterPath="$PROJECT_DIR$/../../www/pages/languagesList.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/css/loader.css" afterPath="$PROJECT_DIR$/../../www/css/loader.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/js/mf.js" afterPath="$PROJECT_DIR$/../../www/js/mf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/pages/settings.html" afterPath="$PROJECT_DIR$/../../www/pages/settings.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/css/style.css" afterPath="$PROJECT_DIR$/../../www/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/css/style4.css" afterPath="$PROJECT_DIR$/../../www/css/style4.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/css/style5.css" afterPath="$PROJECT_DIR$/../../www/css/style5.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/.gradle/2.2.1/taskArtifacts/fileHashes.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/.gradle/2.2.1/taskArtifacts/fileSnapshots.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/browser/build/package.zip" afterPath="$PROJECT_DIR$/../../../workshop/platforms/browser/build/package.zip" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/.gradle/2.2.1/taskArtifacts/taskArtifacts.bin" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/AndroidManifest.xml" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/assets/www/js/EmployeeView.js" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/assets/www/js/EmployeeView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/browser/www/js/EmployeeView.js" afterPath="$PROJECT_DIR$/../../../workshop/platforms/browser/www/js/EmployeeView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/www/js/EmployeeView.js" afterPath="$PROJECT_DIR$/../../../workshop/www/js/EmployeeView.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/android.json" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/plugins/android.json" afterPath="$PROJECT_DIR$/../../../workshop/plugins/android.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/browser/browser.json" afterPath="$PROJECT_DIR$/../../../workshop/platforms/browser/browser.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/plugins/browser.json" afterPath="$PROJECT_DIR$/../../../workshop/plugins/browser.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/config.xml" afterPath="$PROJECT_DIR$/../../../workshop/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/res/xml/config.xml" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/res/xml/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/browser/config.xml" afterPath="$PROJECT_DIR$/../../../workshop/platforms/browser/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/browser/www/config.xml" afterPath="$PROJECT_DIR$/../../../workshop/platforms/browser/www/config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/assets/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/assets/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/browser/platform_www/cordova_plugins.js" afterPath="$PROJECT_DIR$/../../../workshop/platforms/browser/platform_www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/browser/www/cordova_plugins.js" afterPath="$PROJECT_DIR$/../../../workshop/platforms/browser/www/cordova_plugins.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/plugins/fetch.json" afterPath="$PROJECT_DIR$/../../../workshop/plugins/fetch.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/android/assets/www/index.html" afterPath="$PROJECT_DIR$/../../../workshop/platforms/android/assets/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/browser/www/index.html" afterPath="$PROJECT_DIR$/../../../workshop/platforms/browser/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/www/index.html" afterPath="$PROJECT_DIR$/../../../workshop/www/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../../workshop/platforms/platforms.json" afterPath="$PROJECT_DIR$/../../../workshop/platforms/platforms.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../www/pages/welcome.html" afterPath="$PROJECT_DIR$/../../www/pages/welcome.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="android.iws" />
@@ -44,6 +356,30 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="android" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CordovaLib/AndroidManifest.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.6193078">
+              <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
@@ -1268,6 +1604,73 @@
     <ConfirmationsSetting value="0" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
+  <component name="ProjectView">
+    <navigator currentView="AndroidView" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidSourceTypeNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="www" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidPsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="android" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CordovaLib" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
@@ -1277,6 +1680,7 @@
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="Nexus_6P_API_19" />
     <property name="FullScreen" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunManager" selected="Android Application.android">
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1427,7 +1831,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1439,13 +1843,13 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Android Model" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
@@ -1474,5 +1878,23 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/CordovaLib/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/www/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6193078">
+          <caret line="92" column="9" selection-start-line="92" selection-start-column="9" selection-end-line="92" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
