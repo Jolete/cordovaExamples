@@ -1,0 +1,30 @@
+#welcome_banner {
+	position: relative;
+	margin-top: 15%;
+	height: 30%;
+	width: 100%;
+	text-align: center;
+
+	img {
+		max-width: 100%;
+		max-height: 100%;
+	}
+}
+
+#welcome_title {
+	position: relative; 
+	margin-top: 3%;
+	height: 10%;
+	width: 100%; 
+	text-align: center;
+	padding-left: 20px; 
+	padding-right: 20px;
+}
+
+#welcome_text {
+	position: relative; 
+	height: 5%; 
+	width: 100%; 
+	text-align: center; 
+	padding: 20px; 
+}

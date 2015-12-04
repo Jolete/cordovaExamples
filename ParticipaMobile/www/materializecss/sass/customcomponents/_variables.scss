@@ -1,0 +1,42 @@
+
+/*
+ * body
+ */
+$primary-bg-color: white;
+
+/*
+ * Tittle bar
+ */
+$titlebar-bg-color: black;
+$titlebar-text-color: white;
+$titlebar-height-portrait: dp(56, $em-offset, $dip-conversion);
+$titlebar-height-landscape: dp(45, $em-offset, $dip-conversion);
+$titlebar-height-tablet: dp(64, $em-offset, $dip-conversion);
+
+$titlebar-padding: dp(16, $em-offset, $dip-conversion);
+
+
+/*
+ * Tittle bar
+ */
+$bottombar-bg-color: black;
+$bottombar-text-color: white;
+$bottombar-height: dp(48, $em-offset, $dip-conversion);
+
+/*
+ * Icones
+ */
+$icones-height-portrait: dp(32, $em-offset, $dip-conversion);
+$icones-height-landscape: dp(32, $em-offset, $dip-conversion);
+$icones-height-tablet: dp(46, $em-offset, $dip-conversion);
+$icones-marging: dp(6, $em-offset, $dip-conversion);
+
+
+
+/*
+ * Cards
+ */
+$card-title-color: $card-link-color !default;
+$card-title-bg-color: rgba(0,0,0,0.3);  //$card-link-color-light
+
+

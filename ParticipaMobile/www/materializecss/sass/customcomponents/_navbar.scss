@@ -1,0 +1,13 @@
+
+nav ul  {
+	// OJO!! Recordar de quitar el margin: 0 de materializecss
+	@media #{$small-and-down} {
+
+	}
+	@media #{$medium-only} {
+		margin: 0;
+	}
+	@media #{$large-and-up} {
+		margin: 0;
+	}
+}
