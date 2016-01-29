@@ -1,0 +1,30 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 16
+    buildToolsVersion "23.0.2"
+
+    defaultConfig {
+        applicationId "com.intergraph.participamobile"
+        minSdkVersion 8
+        targetSdkVersion 16
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+
+//    task compileSass(type:Exec) {
+//        commandLine 'sass', "src/main/assets/www/materializecss/sass/materialize.scss", "src/main/assets/www/css/newstyle.css"
+//    }
+
+}
+
+dependencies {
+    compile 'com.android.support:support-v4:18.0.0'
+    compile files('libs/apns_1.0.6.jar')
+    compile files('libs/cordova-2.2.0.jar')
+}

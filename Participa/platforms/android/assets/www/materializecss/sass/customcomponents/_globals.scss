@@ -1,0 +1,140 @@
+
+/*
+ * Contenidor principal que engloba tot el body de l'app
+*/
+
+/*#maincontainer
+{
+	width: 100%;
+    margin: auto;
+}*/
+
+/*
+ * Barra de títol principal que mostra la view que estem i el menú
+*/
+// #title_bar
+// {
+//     position: relative;
+//     top: 0px;
+//     left: 0px;
+//     width: 100%;
+//     padding: $titlebar-padding;
+//     color: $titlebar-bg-color;
+//     background-image: -webkit-linear-gradient(#565656, #1d1d1d);
+
+//     @extend .z-depth-1;
+
+//     @media #{$small-and-down} {
+//     // styles for small screens and down
+//          height: $titlebar-height-tablet;
+//     }
+//     @media #{$medium-and-up} {
+//     // styles for medium screens and larger
+//         height: $titlebar-height-tablet;
+//     }
+//     @media #{$medium-and-down} {
+//     // styles for medium screens and down
+//         height: $titlebar-height-portrait;
+//     }
+//     @media #{$large-and-up} {
+//     // styles for large screens and up
+//         height: $titlebar-height-tablet;
+//     }
+// }
+
+// // Text de la barra de títol
+// #title_bar_txt
+// {
+//     position: relative;
+//     color: $titlebar-text-color;
+// }
+
+// /*
+//  * Contenidor principal entre el barra de títol y la barra de butons
+// */
+// #content_area
+// {
+//     position: relative;
+
+//     left: 0px;
+// 	width:100%;
+// 	height:87%;
+//     background: $primary-bg-color;
+
+//     @media #{$small-and-down} {
+//     // styles for small screens and down
+//         top: titlebar-height-tablet;
+//     }
+//     @media #{$medium-and-up} {
+//     // styles for medium screens and larger
+//         top: $titlebar-height-tablet;
+//     }
+//     @media #{$medium-and-down} {
+//     // styles for medium screens and down
+//         top: $titlebar-height-portrait;
+//     }
+//     @media #{$large-and-up} {
+//     // styles for large screens and up
+//         top: $titlebar-height-tablet;
+//     }
+// }
+
+// /*
+//  * Barra de navegació inferior que permet navegar dins app
+// */
+// #bottom_menu
+// {
+//     position: absolute;
+//     bottom: 0px;
+//     left: 0px;
+//     width: 100%;
+//     height: $bottombar-height;
+//     background-image: -webkit-linear-gradient(#565656, #1d1d1d);
+// }
+
+// .container {
+//     /*margin-top: 5px;
+//     margin-bottom: 55px;*/
+//     border: none;
+// }
+
+// .icones {
+//     @extend .z-depth-5;
+//     margin: $icones-marging;
+//     padding: 0px;
+
+//     @media #{$small-and-down} {
+//     // styles for small screens and down
+//         height: $icones-height-portrait;
+//     }
+//     @media #{$medium-and-up} {
+//     // styles for medium screens and larger
+//         height: $icones-height-tablet;
+//     }
+//     @media #{$medium-and-down} {
+//     // styles for medium screens and down
+//         height: $icones-height-portrait;
+//     }
+//     @media #{$large-and-up} {
+//     // styles for large screens and up
+//         height: $icones-height-tablet;
+//     }
+// }*/
+
+// .pContent
+// {
+// }
+
+
+// @media #{$small-and-down} {
+// // styles for small screens and down
+// }
+// @media #{$medium-and-up} {
+// // styles for medium screens and larger
+// }
+// @media #{$medium-and-down} {
+// // styles for medium screens and down
+// }
+// @media #{$large-and-up} {
+// // styles for large screens and up
+// }

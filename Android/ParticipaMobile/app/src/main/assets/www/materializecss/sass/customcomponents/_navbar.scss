@@ -1,0 +1,23 @@
+nav {
+	//background-image: -webkit-linear-gradient(#565656, #1d1d1d);
+	color: $titlebar-text-color;
+	margin-bottom: 0.2rem;
+}
+
+nav a {
+	margin: 0 auto;
+}
+
+nav ul  {
+
+	// OJO!! Recordar de quitar el margin: 0 de materializecss
+	@media #{$small-and-down} {
+
+	}
+	@media #{$medium-only} {
+		margin: 0;
+	}
+	@media #{$large-and-up} {
+		margin: 0;
+	}
+}

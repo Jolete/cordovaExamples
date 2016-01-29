@@ -6,13 +6,16 @@
 			show:function(n,o)
 			{
 				mf.page.current = n;
-				
-                $('#container').load('pages/' + n + '.html',function()
+
+
+                //$('#container').load('pages/splash1.html',function()
+                $('#maincontainer').load('pages/' + n + '.html',function()
 				{
-                    setTimeout(function()
+					setTimeout(function()
                     {
-                        if($('#container').html() == '')
-                            mf.page.show(n,o);	
+                        if($('#maincontainer').html() == '')
+                        	mf.page.show(n,o);
+                           	//$('#maincontainer').fadeIn('fast');
                             
                     },50);
                     

@@ -1,0 +1,46 @@
+
+#mainsettings
+{
+
+}
+
+#list_main_content_area
+{
+  border : 0;
+
+  & li {
+    opacity: 0;
+
+    & i {
+      background-color: transparent;
+      color: grey;
+      font-size: 32px;
+    }
+  }
+}
+
+#settings_role
+{
+  display: block;
+
+  &.hide
+  {
+    display: none;
+  }
+}
+
+
+@media #{$small-and-down} {
+    // styles for small screens and down
+  }
+  @media #{$medium-and-up} {
+    // styles for medium screens and larger
+  }
+  @media #{$medium-and-down} {
+    // styles for medium screens and down
+  }
+  @media #{$large-and-up} {
+    // styles for large screens and up
+  }
+
+

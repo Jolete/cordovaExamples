@@ -1,0 +1,23 @@
+// // Variables;
+@import "materialize";
+
+// global options
+@import "customcomponents/_roboto.scss";
+@import "customcomponents/_mixins";
+@import "customcomponents/_variables";
+@import "customcomponents/_globals";
+
+@import "customcomponents/_typography";
+@import "customcomponents/_cards";
+@import "customcomponents/_collections";
+@import "customcomponents/_navbar";
+
+// pages
+@import "pages/_index.scss";
+
+@import "pages/_loader.scss";
+
+@import "pages/_welcome.scss";
+@import "pages/_languages.scss";
+@import "pages/_settings.scss";
+

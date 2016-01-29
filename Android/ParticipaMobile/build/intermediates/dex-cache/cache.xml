@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Source\Tgeo\participa\ParticipaMobile\Hibridas\Android\ParticipaMobile\app\libs\apns_1.0.6.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="f9aa1b7f4116578dcfafe1338603533def8b9ff2">
+        <dex dex="C:\Source\Tgeo\participa\ParticipaMobile\Hibridas\Android\ParticipaMobile\app\build\intermediates\pre-dexed\debug\apns_1.0.6-b3bf006894a7f3821ce93406f3ae39941be81a02.jar" />
+    </item>
+    <item
+        jar="C:\Source\Tgeo\participa\ParticipaMobile\Hibridas\Android\ParticipaMobile\app\libs\cordova-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="05c3c27865d6647da7f930c9c6cb0db32ab0fd61">
+        <dex dex="C:\Source\Tgeo\participa\ParticipaMobile\Hibridas\Android\ParticipaMobile\app\build\intermediates\pre-dexed\debug\cordova-2.2.0-f71ef9ca37afdf3e330d7bcd6750b1da36ff0749.jar" />
+    </item>
+    <item
+        jar="C:\Users\jarenas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Backup\Projectes\PARTICIPA\Desenvolupament\ParticipaMobile_AS\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-7c4e4d31bb0ca9d3feb37b898bdc586146f42b0b.jar" />
+    </item>
+    <item
+        jar="C:\Source\Tgeo\participa\ParticipaMobile\Hibridas\Android\ParticipaMobile\app\libs\apns_1.0.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f9aa1b7f4116578dcfafe1338603533def8b9ff2">
+        <dex dex="C:\Source\Tgeo\participa\ParticipaMobile\Hibridas\Android\ParticipaMobile\app\build\intermediates\pre-dexed\debug\apns_1.0.6-b3bf006894a7f3821ce93406f3ae39941be81a02.jar" />
+    </item>
+    <item
+        jar="C:\Backup\Projectes\PARTICIPA\Desenvolupament\ParticipaMobile_AS\app\libs\cordova-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05c3c27865d6647da7f930c9c6cb0db32ab0fd61">
+        <dex dex="C:\Backup\Projectes\PARTICIPA\Desenvolupament\ParticipaMobile_AS\app\build\intermediates\pre-dexed\debug\cordova-2.2.0-63e663cb1dfb185c9593edb26c81e47737768315.jar" />
+    </item>
+    <item
+        jar="C:\Source\Tgeo\participa\ParticipaMobile\Hibridas\Android\ParticipaMobile\app\libs\cordova-2.2.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="05c3c27865d6647da7f930c9c6cb0db32ab0fd61">
+        <dex dex="C:\Source\Tgeo\participa\ParticipaMobile\Hibridas\Android\ParticipaMobile\app\build\intermediates\pre-dexed\debug\cordova-2.2.0-f71ef9ca37afdf3e330d7bcd6750b1da36ff0749.jar" />
+    </item>
+    <item
+        jar="C:\Users\jarenas\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="C:\Source\Tgeo\participa\ParticipaMobile\Hibridas\Android\ParticipaMobile\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-7c4e4d31bb0ca9d3feb37b898bdc586146f42b0b.jar" />
+    </item>
+    <item
+        jar="C:\Backup\Projectes\PARTICIPA\Desenvolupament\ParticipaMobile_AS\app\libs\apns_1.0.6.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f9aa1b7f4116578dcfafe1338603533def8b9ff2">
+        <dex dex="C:\Backup\Projectes\PARTICIPA\Desenvolupament\ParticipaMobile_AS\app\build\intermediates\pre-dexed\debug\apns_1.0.6-22734e446d0b846c888fe9d8f8da7303440f905f.jar" />
+    </item>
+
+</items>

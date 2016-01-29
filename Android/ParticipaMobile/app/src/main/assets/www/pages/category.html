@@ -1,0 +1,57 @@
+<div class="pContent" >
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="left ">
+                    <li id="back"><a href="#!"><!--<i class="material-icons">arrow_back</i>-->
+                        <i class="material-icons">&#xE5C4;</i></a></li>
+                </ul>
+                <div id="title_bar_txt" href="#!" class="left"></div>
+            </div>
+        </nav>
+    </div>
+    <div id="content_area" data-role="scroller" data-elastic="true">
+        <div id="cards_content_area" class="container" >
+            <script type="text/x-kendo-tmpl" id="cards-template1">
+                <div class="row">
+                    <div class="col s12 m16 l4">
+                        <div class="card">
+                            <div class="card-image">
+                                <div id="#: CardImageID #" src="">
+                                </div>
+                                <!--<span class="card-title">#: CardTitle #</span>-->
+                            </div>
+                            <div class="card-action">
+                                <a href="#: CardAction #">#: CardTitle #</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </script>
+        </div>
+        <script id="progress" type="text/x-kendo-template">
+            In progress...
+        </script>
+        <div id="wheel" style="display:none;">
+            <div id="display1"></div>
+            <ul id="zodiac">
+            <!--
+                <li id="aries"></li>
+                <li id="taurus"></li>
+                <li id="gemini"></li>
+               <li id="cancer"></li>
+               <li id="leo"></li>
+                <li id="virgo"></li>
+                <li id="libra"></li>
+                <li id="scorpio"></li>
+                <li id="sagitta"></li>
+                <li id="caprico"></li>
+                <li id="aquarius"></li>
+                <li id="pisces"></li>-->
+            </ul>
+            <div id="ok"></div>
+            <div id="text"></div>
+        </div>
+
+    </div>
+</div>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectTasksOptions">
+    <TaskOptions isEnabled="false">
+      <option name="arguments" value="--no-cache --update $FileName$:$ProjectFileDir$/css/$FileDirPathFromParent(sass)$$FileNameWithoutExtension$.css" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="Compiless .Sass files into .css files" />
+      <option name="exitCodeBehavior" value="ALWAYS" />
+      <option name="fileExtension" value="sass" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="SCSS Compiler" />
+      <option name="output" value="$FileNameWithoutExtension$.css" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="program" value="$USER_HOME$/AppData/Roaming/npm/node-sass.cmd" />
+      <option name="scopeName" value="Module 'app'" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="$ProjectFileDir$\app\src\main\assets\www\materializecss\sass" />
+      <envs />
+    </TaskOptions>
+  </component>
+</project>

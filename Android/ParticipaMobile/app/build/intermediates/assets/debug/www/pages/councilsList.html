@@ -1,0 +1,28 @@
+<script>
+    $("#pContent").fadeIn();
+</script>
+
+
+<div class="pContent">
+    <div class="navbar-fixed">
+        <nav>
+            <div class="nav-wrapper">
+                <ul class="left ">
+                    <li id="back"><a href="#!"><!--<i class="material-icons">arrow_back</i>-->
+                        <i class="material-icons">&#xE5C4;</i></a></li>
+                </ul>
+                <div id="title_bar_txt" href="#!" class="left"></div>
+            </div>
+        </nav>
+    </div>
+    <div id="content_area" data-role="scroller" data-elastic="true" data-pull-to-refresh="true" data-endless-scroll="true">
+        <ul id="list_content_area" class="collection">
+            <script type="text/x-kendo-tmpl" id="templateCouncils">
+                <li class="collection-item avatar hoverable valign-wrapper">
+                    <img src="#: Icon #" alt="Council Logo" class="circle valign">
+                    <h5 class="title valign">#: Description #</h5>
+                </li>
+            </script>
+        </ul>
+    </div>
+</div>

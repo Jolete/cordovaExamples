@@ -1,0 +1,34 @@
+
+/*
+ * Contenidor principal que engloba tot el body de l'app
+*/
+#maincontainer
+{
+	width: 100%;
+    margin: auto;
+    height: 100%;
+}
+
+
+/*
+ * Contenidor base que engloba tot el nou body dels htmls parcials
+*/
+.pContent {
+    with: 100%;
+    height: 100%;
+}
+
+/*
+ * Contenidor de area de treball on hi ha el contingut
+*/
+#content_area
+{
+	width: 100%;
+    margin: auto;
+    overflow:auto;
+    overflow-y:auto;
+    overflow-x:none;
+    background: $primary-bg-color;
+}
+
+
